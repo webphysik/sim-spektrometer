@@ -101,7 +101,7 @@ code {
     justify-content: center;
 }
 .magnetfeldZeichen div {
-    background-image: url(/b-feld/anwendung/spectrometer/static/media/Magnetfeld_filter.svg);
+    background-image: url(/sim-spektrometer/static/media/Magnetfeld_filter.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     width: 17px;
@@ -117,7 +117,7 @@ code {
     justify-content: center;
 }
 .magnetfeldZeichen2 div {
-    background-image: url(/b-feld/anwendung/spectrometer/static/media/Magnetfeld_filter2.svg);
+    background-image: url(/sim-spektrometer/static/media/Magnetfeld_filter2.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     width: 17px;
@@ -133,7 +133,7 @@ code {
     justify-content: center;
 }
 .magnetfeldFilter div {
-    background-image: url(/b-feld/anwendung/spectrometer/static/media/Magnetfeld_analyse.svg);
+    background-image: url(sim-spektrometer/static/media/Magnetfeld_analyse.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     width: 17px;
@@ -149,7 +149,7 @@ code {
     justify-content: center;
 }
 .magnetfeldFilter2 div {
-    background-image: url(/b-feld/anwendung/spectrometer/static/media/Magnetfeld_analyse2.svg);
+    background-image: url(/sim-spektrometer/static/media/Magnetfeld_analyse2.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     width: 17px;
