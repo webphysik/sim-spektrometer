@@ -133,7 +133,7 @@ code {
     justify-content: center;
 }
 .magnetfeldFilter div {
-    background-image: url(sim-spektrometer/static/media/Magnetfeld_analyse.svg);
+    background-image: url(/sim-spektrometer/static/media/Magnetfeld_analyse.svg);
     background-repeat: no-repeat;
     background-position: 50%;
     width: 17px;
