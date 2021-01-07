@@ -79,7 +79,7 @@
                             "div",
                             { className: "efeldZeichen2" },
                             Object(s.a)(Array(30)).map(function (e, t) {
-                                return r.a.createElement("div", { key: t, style: { marginRight: n2, marginLeft: n2 } }, r.a.createElement("img", { src: "sim-spektrometer/static/media/Efeld2.svg", alt: "" }));
+                                return r.a.createElement("div", { key: t, style: { marginRight: n2, marginLeft: n2 } }, r.a.createElement("img", { src: "/sim-spektrometer/static/media/Efeld2.svg", alt: "" }));
                             })
                         ),
                     r.a.createElement("div", { className: "kondensator kondensatorOben" }),
@@ -89,7 +89,7 @@
                     r.a.createElement("div", { className: "blendeUnten blendeAnalysatorUnten " }),
                     r.a.createElement("div", { className: "schirm" }),
                     r.a.createElement("div", { className: "skala" }, r.a.createElement("img", { src: u.a, alt: "Skala" })),
-					r.a.createElement("div", { className: "skala2" }, r.a.createElement("img", { src: "sim-spektrometer/static/media/Skala2.svg", alt: "Skala2" })),
+					r.a.createElement("div", { className: "skala2" }, r.a.createElement("img", { src: "/sim-spektrometer/static/media/Skala2.svg", alt: "Skala2" })),
                     r.a.createElement(
                         "div",
                         { className: "analysator" },
