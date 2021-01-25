@@ -168,13 +168,17 @@
                                         m % 8 === 0)
                                     ) {
                                         var e, t;
-                                        if ("C" === S) {
+                                        if ("A" === S){((e = -1.6), (t = "blue"), (speed = 2.6));
+                                        }  
+                                        else if ("C" === S) {
                                             var n = Math.random();
-                                            n < 0.34 ? ((e = 2), (t = "firebrick"), (speed = 3.4+0.8*(Math.random()-.5))) : n < 0.67 ? ((e = -1.2), (t = "deeppink"), (speed = 5.64+2*(Math.random()-.5))) : n < 1 && ((e = -2.7), (t = "LightSeaGreen"), (speed = 2.5+0.6*(Math.random()-.5)));
+                                            n < 0.34 ? ((e = -0.9), (t = "limegreen"), (speed = 2.8+0.8*(Math.random()-.5))) : n < 0.67 ? ((e = -1.9), (t = "indigo"), (speed = 2.64+1*(Math.random()-.5))) : n < 1 && ((e = -1.5), (t = "dodgerblue"), (speed = 2.5+0.8*(Math.random()-.5)));
                                         }
-                                        else if ("A" === S){((e = -2.3), (t = "blue"), (speed = 3.1));
+										else if ("D" === S) {
+                                            var vd = Math.random();
+                                            vd < 0.34 ? ((e = 2), (t = "firebrick"), (speed = 3.4+0.8*(Math.random()-.5))) : vd < 0.67 ? ((e = -1.2), (t = "deeppink"), (speed = 5.64+2*(Math.random()-.5))) : vd < 1 && ((e = -2.7), (t = "LightSeaGreen"), (speed = 2.5+0.6*(Math.random()-.5)));
                                         }
-                                        else "B" === S && ((e = -1), (t = "DarkViolet"), (speed = 4.2+2*(Math.random()-.5)));
+                                        else "B" === S && ((e = -1), (t = "DarkViolet"), (speed = 3+1.5*(Math.random()-.5)));
                                         f(E.concat({ x: -40, y: 150, vx: speed, vy: 0, m: e, t: t, passedFilter: !1 }));
                                     }
                                     E.forEach(function (e, t) {
@@ -282,7 +286,8 @@
                                 },
                                 r.a.createElement("option", { value: "A" }, "Probe A"),
                                 r.a.createElement("option", { value: "B" }, "Probe B"),
-                                r.a.createElement("option", { value: "C" }, "Probe C")
+                                r.a.createElement("option", { value: "C" }, "Probe C"),
+								r.a.createElement("option", { value: "D" }, "Probe D")
                             ),
                             r.a.createElement("input", {
                                 type: "button",
@@ -298,12 +303,19 @@
                                 },
                                 value: "Zur\xfccksetzen",
                             }),
-                            "C" === S &&
+                            "D" === S &&
                                 r.a.createElement(
                                     "div",
                                     { className: "anweisungen" },
                                     "Drei verschiedene Teilchensorten mit unterschiedlichen Geschwindigkeiten, Massen und Ladungen.",
                     r.a.createElement("div", { className: "ladung" }, "\\(q = \\pm e\\)")
+                                ),
+							"C" === S &&
+                                r.a.createElement(
+                                    "div",
+                                    { className: "anweisungen" },
+                                    "Teilchen mit gleicher Ladung, ähnlichen Massen und leicht unterschiedlichen Geschwindigkeiten.",
+                    r.a.createElement("div", { className: "ladung" }, "\\(q = -e\\)")
                                 ),
                             "B" === S &&
                                 r.a.createElement(
